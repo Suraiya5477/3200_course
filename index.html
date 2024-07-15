@@ -12,7 +12,7 @@
   }
   .iframe-container {
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     overflow: hidden;
   }
   iframe {
@@ -20,9 +20,122 @@
     height: 100%;
     border: none;
   }
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 10px;
+    width: 100%;
+  }
+
+
+
+  .box {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    width: 50%; 
+    max-width: 300px; 
+
+
+    
+  }
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .one a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .two a {
+    text-decoration: none;
+    color: rgb(49, 149, 49);
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .three a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .four a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  .spacer {
+    background-color: #fff;
+    width: 100%;
+    height: 50px; 
+  }
+
+
+  h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
 </style>
 </head>
 <body>
+
+    <h3> Online Profiles</h3>
+
+    <section>
+        <div class="container">
+            <div class="box one">
+              <a href="https://codeforces.com/profile/jahan5477" target="_blank">Codeforces Profile</a>
+            </div>
+            <div class="box two">
+              <a href="https://www.codechef.com/users/jahan5477" target="_blank">CodeChef Profile</a>
+            </div>
+
+            <div class="box three">
+                <a href="https://github.com/Suraiya5477" target="_blank">GitHub Profile</a>
+              </div>
+
+            <div class="box four">
+              <a href="https://atcoder.jp/users/Suraiya" target="_blank">AtCoder Profile</a>
+            </div>
+            
+          </div>
+
+    </section>
+
+
+
+    <div class="spacer">
+
+    </div>
+
+    <h3>Topic-wise Solved Problem List</h3>
+
+
+
+
+
   <div class="iframe-container">
        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPte0Oh84GVex1skZtB2DnI7MXIt6lqFthdzWqUo50shbFsh9mspCACDyPMgXP8PUqFO6fxu9O00v1/pubhtml?gid=1252358797&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
